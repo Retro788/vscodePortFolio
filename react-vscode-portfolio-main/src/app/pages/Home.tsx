@@ -16,7 +16,7 @@ interface Props {
   setSelectedIndex: React.Dispatch<React.SetStateAction<number>>;
 }
 
-const fixedAppName = "Retro The Developer";
+const fixedAppName = "Bye Bye";
 
 export default function Home({ setSelectedIndex }: Props) {
   const { pathname } = useLocation();
